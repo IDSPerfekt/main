@@ -1,21 +1,23 @@
 {
   "$comment": "Ground-Truth für den Modico Growth Agent. Specs, Modelle, Druckflächen, Preise und Margen werden AUSSCHLIESSLICH hier gepflegt — der Agent erfindet nichts. Felder mit null = noch nicht erfasst. Jede recherchierte Angabe in 'verifiziert' mit Quelle/Datum belegen.",
-  "stand": null,
+  "stand": "2026-07-03",
   "produkte": [
     {
-      "id": "BEISPIEL-ENTFERNEN",
-      "kategorie": "uv-flachbettdrucker | uv-runddrucker-360 | lasergravur",
-      "hersteller": "Modico",
-      "modell": null,
+      "id": "modico-wave",
+      "kategorie": "uv-runddrucker-360",
+      "hersteller": "Modico GmbH & Co KG (Modico Graphic Systems)",
+      "modell": "Modijet WAVE",
+      "produkt_url": "https://wave.modico.nrw",
       "specs": {
-        "druckflaeche_mm": null,
-        "max_objekthoehe_mm": null,
+        "bauart": "Einzelspindel-360°-UV-Runddrucksystem",
+        "druckkopf": "Epson i3200",
+        "farben": "CMYK + Weiß + Lack",
+        "objekte": "Flaschen, Becher, Tassen, Tuben – zylindrisch und leicht konisch",
+        "stellflaeche_cm": "73 breit × 53 tief",
+        "max_objektlaenge_mm": null,
+        "max_objektdurchmesser_mm": null,
         "aufloesung_dpi": null,
-        "tinten": null,
-        "laser_typ": null,
-        "laser_leistung_w": null,
-        "laser_schutzklasse": null,
-        "rotationseinheit": null
+        "vorgestellt": "PSI 2026, Düsseldorf"
       },
       "einkauf": {
         "quelle": "Restposten/Sonderposten",
@@ -29,12 +31,13 @@
         "marge_eur": null
       },
       "cross_sell": {
-        "rohlinge": [],
-        "verbrauchsmaterial": []
+        "rohlinge": ["Edelstahl-Tumbler", "Trinkflaschen", "Becher/Tassen"],
+        "verbrauchsmaterial": ["UV-Tinte CMYK", "Weißtinte", "Lack"]
       },
       "verifiziert": {
-        "quelle": null,
-        "datum": null
+        "quelle": "news.modico.com/modijet-wave-runddrucksystem + modico-graphics.de (via Websuche; Direktzugriff aus dieser Umgebung gesperrt)",
+        "datum": "2026-07-03",
+        "offen": "max. Objektlänge/-durchmesser, Auflösung, EK/VK-Preis — aus Hersteller-Datenblatt bzw. Einkauf ergänzen"
       }
     }
   ]

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modico WAVE – 360°-UV-Runddrucker | Becher, Flaschen & Tumbler selbst bedrucken</title>
+<meta name="description" content="Der Modico WAVE macht Runddruck einfach: Becher, Flaschen und Tumbler in Minuten personalisieren – CMYK, Weiß und Lack in einem Durchgang. Jetzt Sonderposten-Preis bei IDS Perfekt anfragen.">
+<style>
+  :root{
+    --ink:#101418; --paper:#ffffff; --muted:#5b6572;
+    --brand:#0e63f4; --brand-dark:#0a4ab8; --accent:#12b76a;
+    --bg-soft:#f4f6f9; --line:#e3e8ee; --warn-bg:#fff7e6; --warn-line:#f0d9a8;
+    --radius:14px; --max:1060px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+  h1,h2,h3{line-height:1.2;letter-spacing:-.01em}
+  h2{font-size:clamp(26px,3.6vw,36px);margin-bottom:14px}
+  section{padding:64px 0}
+  .muted{color:var(--muted)}
+  .btn{display:inline-block;background:var(--brand);color:#fff;font-weight:700;padding:15px 28px;border-radius:10px;text-decoration:none;font-size:17px;transition:background .15s}
+  .btn:hover{background:var(--brand-dark)}
+  .btn.ghost{background:transparent;color:var(--brand);border:2px solid var(--brand)}
+  .btn.ghost:hover{background:var(--brand);color:#fff}
+
+  /* Hero */
+  .hero{background:linear-gradient(160deg,#0b1220 0%,#12233f 60%,#0e63f4 140%);color:#fff;padding:84px 0 72px}
+  .hero .kicker{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);padding:6px 14px;border-radius:999px;font-size:14px;font-weight:600;margin-bottom:22px}
+  .hero h1{font-size:clamp(34px,5.4vw,56px);font-weight:800;margin-bottom:18px}
+  .hero p.sub{font-size:clamp(18px,2.2vw,22px);max-width:640px;color:#d7e0ee;margin-bottom:32px}
+  .hero .cta-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+  .hero .note{font-size:14px;color:#9fb0c8;margin-top:14px}
+
+  /* Proof video */
+  .video-box{background:var(--bg-soft);border:2px dashed var(--line);border-radius:var(--radius);aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;text-align:center;padding:20px}
+  .video-box .play{width:72px;height:72px;border-radius:50%;background:var(--brand);display:flex;align-items:center;justify-content:center}
+  .video-box .play::after{content:"";border-style:solid;border-width:14px 0 14px 24px;border-color:transparent transparent transparent #fff;margin-left:6px}
+
+  /* Cards */
+  .grid{display:grid;gap:20px}
+  @media(min-width:760px){.grid.c3{grid-template-columns:repeat(3,1fr)}.grid.c2{grid-template-columns:repeat(2,1fr)}.grid.c4{grid-template-columns:repeat(4,1fr)}}
+  .card{background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+  .card h3{font-size:19px;margin-bottom:8px}
+  .card .big{font-size:26px;font-weight:800;color:var(--brand)}
+
+  /* Margin example */
+  .calc{background:#0b1220;color:#fff;border-radius:var(--radius);padding:36px 30px}
+  .calc table{width:100%;border-collapse:collapse;margin:18px 0;font-size:17px}
+  .calc td{padding:10px 6px;border-bottom:1px solid rgba(255,255,255,.14)}
+  .calc td:last-child{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+  .calc tr.total td{border-bottom:none;font-size:21px;font-weight:800;color:#4ade80;padding-top:16px}
+  .calc .fine{font-size:13px;color:#9fb0c8;margin-top:12px}
+
+  /* Specs */
+  .specs table{width:100%;border-collapse:collapse}
+  .specs td{padding:13px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  .specs td:first-child{font-weight:600;width:42%}
+  .badge{display:inline-block;font-size:12px;font-weight:700;padding:2px 9px;border-radius:999px;margin-left:8px;vertical-align:middle}
+  .badge.ok{background:#e6f7ef;color:#0a7a45}
+  .badge.tbd{background:var(--warn-bg);color:#8a6100;border:1px solid var(--warn-line)}
+
+  /* ICP */
+  .icp .card{background:#fff}
+  .soft{background:var(--bg-soft)}
+
+  /* FAQ */
+  details{border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin-bottom:12px;background:#fff}
+  details summary{font-weight:700;cursor:pointer}
+  details p{margin-top:10px;color:var(--muted)}
+
+  /* CTA end */
+  .cta-final{background:linear-gradient(160deg,#0b1220,#12233f);color:#fff;text-align:center}
+  .cta-final h2{color:#fff}
+  .cta-final p{color:#c6d2e4;max-width:560px;margin:0 auto 26px}
+
+  footer{padding:28px 0;font-size:14px;color:var(--muted);border-top:1px solid var(--line)}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">Sonderposten bei IDS Perfekt · solange der Vorrat reicht</span>
+    <h1>Runddruck. Endlich&nbsp;einfach.<br>Der Modico&nbsp;WAVE.</h1>
+    <p class="sub">Becher, Flaschen, Tumbler: Aus einem Rohling für ein paar Cent wird ein
+    personalisiertes Einzelstück – gedruckt in Minuten, ab Losgröße&nbsp;1 profitabel.
+    CMYK, Weiß und Lack in einem Durchgang, sofort UV-ausgehärtet.</p>
+    <div class="cta-row">
+      <a class="btn" href="#kontakt">Sonderposten-Preis anfragen</a>
+      <a class="btn ghost" href="#video">60-Sekunden-Demo ansehen</a>
+    </div>
+    <p class="note">Antwort typischerweise innerhalb eines Werktags · Beratung &amp; Rohlinge direkt ab Lager</p>
+  </div>
+</header>
+
+<!-- ============ VIDEO / BEWEIS ============ -->
+<section id="video">
+  <div class="wrap">
+    <h2>Sehen statt glauben: ein Becher, ein Durchgang, fertig.</h2>
+    <p class="muted" style="max-width:640px;margin-bottom:26px">Kein Umspannen, kein Folienkleben,
+    kein Warten aufs Trocknen. Das Objekt rotiert, der Druckkopf legt Farbe, Weiß und Lack
+    auf – die UV-LED härtet sofort aus. Rausnehmen, verkaufen.</p>
+    <div class="video-box">
+      <div class="play"></div>
+      <strong>Demo-Video: Tumbler wird vollflächig bedruckt (30–60&nbsp;s)</strong>
+      <span class="muted">[PLATZHALTER – Video-Embed hier einsetzen, z.&nbsp;B. YouTube/Vimeo]</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NUTZEN ============ -->
+<section class="soft">
+  <div class="wrap">
+    <h2>Warum der WAVE – und nicht irgendein Runddrucker?</h2>
+    <div class="grid c3" style="margin-top:26px">
+      <div class="card">
+        <h3>Einfacher Einstieg</h3>
+        <p class="muted">Einzelspindel-System, gebaut für den unkomplizierten Start in den
+        360°-Direktdruck – ohne Druckerei-Vorwissen bedienbar.</p>
+      </div>
+      <div class="card">
+        <h3>Weiß + Lack inklusive</h3>
+        <p class="muted">Epson-i3200-Druckkopf mit CMYK, Weiß und Lack: brillante Farben auch
+        auf dunklen Bechern und Edelstahl-Tumblern, dazu Glanz- und Struktureffekte.</p>
+      </div>
+      <div class="card">
+        <h3>Passt in jeden Laden</h3>
+        <p class="muted">Nur 73&nbsp;cm breit und 53&nbsp;cm tief – der WAVE steht auf dem
+        Tresen oder der Werkbank, nicht in einer Halle.</p>
+      </div>
+      <div class="card">
+        <h3>Rund &amp; leicht konisch</h3>
+        <p class="muted">Flaschen, Becher, Tassen, Tuben, Dosen, Stifte – auch leicht konische
+        Formen wie Kaffeebecher druckt der WAVE vollflächig um das Objekt herum.</p>
+      </div>
+      <div class="card">
+        <h3>Sofort trocken</h3>
+        <p class="muted">UV-LED-Härtung direkt beim Druck: kratzfest und UV-beständig,
+        das Stück kann sofort übergeben werden. Kein Ofen, kein Trocknungsregal.</p>
+      </div>
+      <div class="card">
+        <h3>Rohlinge gleich mit dazu</h3>
+        <p class="muted">IDS Perfekt liefert Becher-, Flaschen- und Tumbler-Rohlinge aus eigenem
+        Bestand mit – eine Bestellung, ein Ansprechpartner, sofort produktionsbereit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RECHENBEISPIEL ============ -->
+<section>
+  <div class="wrap">
+    <h2>Das Gerät ist der Türöffner. Die Marge ist das Argument.</h2>
+    <p class="muted" style="max-width:640px;margin-bottom:26px">Personalisierung on-demand heißt:
+    Du produzierst erst, wenn verkauft ist – kein Lagerrisiko, keine Mindestmenge.
+    So sieht das typischerweise pro Stück aus:</p>
+    <div class="calc">
+      <h3 style="font-size:22px">Beispielrechnung: personalisierter Edelstahl-Tumbler*</h3>
+      <table>
+        <tr><td>Rohling (Einkauf, typischerweise)</td><td>ca. 3–5&nbsp;€</td></tr>
+        <tr><td>Tinte, Lack &amp; Strom pro Druck (typischerweise)</td><td>unter 1&nbsp;€</td></tr>
+        <tr><td>Arbeitszeit: Motiv laden, einspannen, drucken</td><td>wenige Minuten</td></tr>
+        <tr><td>Verkaufspreis personalisiert (marktüblich)</td><td>ca. 20–35&nbsp;€</td></tr>
+        <tr class="total"><td>Rohertrag pro Stück</td><td>bis zu ca. 30&nbsp;€</td></tr>
+      </table>
+      <p class="fine">* Unverbindliche Beispielrechnung mit markttypischen Spannen – kein
+      Umsatz- oder Gewinnversprechen. Dein tatsächlicher Ertrag hängt von Einkauf, Motiv,
+      Stückzahl und Verkaufskanal ab. Wir rechnen dein konkretes Szenario gern gemeinsam durch.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ICP ============ -->
+<section class="soft icp">
+  <div class="wrap">
+    <h2>Für wen sich der WAVE rechnet</h2>
+    <div class="grid c2" style="margin-top:26px">
+      <div class="card">
+        <h3>Werbetechnik &amp; Werbeartikel-Händler</h3>
+        <p class="muted">Hol die Becher- und Flaschen-Personalisierung ins eigene Haus, statt sie
+        fremdzuvergeben. Die Marge, die bisher dein Zulieferer verdient, bleibt bei dir –
+        und Eilaufträge gehen noch am selben Tag raus.</p>
+      </div>
+      <div class="card">
+        <h3>Gravur-, Pokal- &amp; Trophäen-Betriebe</h3>
+        <p class="muted">Erweitere Gravur um vollfarbigen 360°-Druck: Vereinslogos in Farbe auf
+        Trinkflaschen und Pokalbechern – ein Zusatzverkauf bei jedem Vereinsauftrag.</p>
+      </div>
+      <div class="card">
+        <h3>Geschenke-, Deko- &amp; Blumenläden</h3>
+        <p class="muted">Personalisierte Tassen und Becher on-demand, während die Kundschaft
+        wartet oder bis zum nächsten Tag. Das Gerät steht auf dem Tresen – der Druckvorgang
+        selbst ist die Schaufenster-Show.</p>
+      </div>
+      <div class="card">
+        <h3>Etsy- &amp; Print-on-Demand-Seller</h3>
+        <p class="muted">Skalier vom Folien-Basteln zum echten Direktdruck: gleichbleibende
+        Qualität, Weiß auf dunklen Tumblern, Losgröße&nbsp;1 profitabel – und deutlich
+        schnellere Stückzeiten als mit Sublimation und Presse.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPECS ============ -->
+<section class="specs">
+  <div class="wrap">
+    <h2>Technische Daten</h2>
+    <table style="margin-top:20px">
+      <tr><td>System</td><td>Modijet WAVE – Einzelspindel-360°-UV-Runddrucksystem <span class="badge ok">geprüft: news.modico.com, 03.07.2026</span></td></tr>
+      <tr><td>Druckkopf</td><td>Epson i3200 <span class="badge ok">geprüft: news.modico.com, 03.07.2026</span></td></tr>
+      <tr><td>Farbkonfiguration</td><td>CMYK + Weiß + Lack <span class="badge ok">geprüft: news.modico.com, 03.07.2026</span></td></tr>
+      <tr><td>Objekte</td><td>Flaschen, Becher, Tassen, Tuben – zylindrisch und leicht konisch <span class="badge ok">geprüft: news.modico.com, 03.07.2026</span></td></tr>
+      <tr><td>Stellfläche</td><td>ca. 73&nbsp;cm breit × 53&nbsp;cm tief <span class="badge ok">geprüft: news.modico.com, 03.07.2026</span></td></tr>
+      <tr><td>Härtung</td><td>UV-LED, sofort kratz- und UV-beständig</td></tr>
+      <tr><td>Max. Objektlänge / -durchmesser</td><td>auf Anfrage <span class="badge tbd">wird mit Datenblatt ergänzt</span></td></tr>
+      <tr><td>Auflösung</td><td>auf Anfrage <span class="badge tbd">wird mit Datenblatt ergänzt</span></td></tr>
+      <tr><td>Preis</td><td><strong>Sonderposten-Preis auf Anfrage</strong> – deutlich unter regulärem Neupreis <span class="badge tbd">Stückzahl begrenzt</span></td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="soft">
+  <div class="wrap">
+    <h2>Häufige Fragen</h2>
+    <div style="margin-top:22px">
+      <details>
+        <summary>Brauche ich Druck-Vorkenntnisse?</summary>
+        <p>Nein. Der WAVE ist als Einsteiger-System ausgelegt: Motiv laden, Objekt einspannen,
+        drucken. Eine Einweisung bekommst du von uns dazu.</p>
+      </details>
+      <details>
+        <summary>Was kann ich damit bedrucken?</summary>
+        <p>Zylindrische und leicht konische Objekte – z.&nbsp;B. Edelstahl-Tumbler, Trinkflaschen,
+        Tassen, Becher, Tuben, Dosen und Stifte. Dank Weißtinte auch dunkle und transparente
+        Oberflächen.</p>
+      </details>
+      <details>
+        <summary>Woher bekomme ich Rohlinge?</summary>
+        <p>Direkt von uns: IDS Perfekt liefert Becher-, Flaschen- und Tumbler-Rohlinge aus eigenem
+        Restposten-Bestand – auf Wunsch gleich im Paket mit der Maschine.</p>
+      </details>
+      <details>
+        <summary>Warum ist der Preis so attraktiv?</summary>
+        <p>Wir beziehen die Geräte als Rest- und Sonderposten. Du bekommst Neugeräte-Technik zum
+        Sonderposten-Preis – dafür ist die Stückzahl begrenzt.</p>
+      </details>
+      <details>
+        <summary>Kann ich die Maschine vorher live sehen?</summary>
+        <p>Ja. Schreib uns kurz, wir zeigen dir den Druckvorgang per Video-Call oder vor Ort –
+        gern mit deinem eigenen Motiv auf einem Musterrohling.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KONTAKT / CTA ============ -->
+<section class="cta-final" id="kontakt">
+  <div class="wrap">
+    <h2>Begrenzte Stückzahl. Erster Schritt: kurz anfragen.</h2>
+    <p>Schreib uns eine Mail mit deinem Anwendungsfall (z.&nbsp;B. „Tumbler für Vereine") –
+    du bekommst Sonderposten-Preis, Beispielrechnung für dein Produkt und auf Wunsch
+    einen Demo-Termin.</p>
+    <a class="btn" style="background:#12b76a" href="mailto:info@ids-perfekt.de?subject=Anfrage%20Modico%20WAVE%20Runddrucker">Jetzt WAVE-Angebot anfragen</a>
+    <p style="margin-top:16px;font-size:15px;color:#9fb0c8">info@ids-perfekt.de · Antwort typischerweise innerhalb eines Werktags</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>IDS Perfekt · [PLATZHALTER: vollständige Anbieterkennzeichnung/Impressum + Datenschutzerklärung verlinken]</p>
+    <p>Modico® und Modijet sind Marken der Modico GmbH &amp; Co&nbsp;KG. Produktangaben laut Hersteller
+    (news.modico.com, abgerufen 03.07.2026); Beispielrechnungen sind unverbindlich und kein Gewinnversprechen.</p>
+  </div>
+</footer>
+
+</body>
+</html>
