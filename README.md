@@ -18,3 +18,14 @@ legal-builder-hub).
 
 > Hinweis: `cocounsel-legal` (Thomson Reuters) ist bewusst nicht aktiviert – es benötigt
 > ein separates Westlaw-/Practical-Law-Konto.
+
+## Modico Growth Agent
+
+In `.claude/agents/modico-growth-agent.md` liegt der autonome Marketing- &
+Vertriebs-Agent für die Modico-Maschinen (UV-Flachbettdrucker, 360°-UV-Runddrucker,
+Lasergravur). Output-Modi auf Zuruf: `landingpage`, `listing`, `ads`, `video`,
+`outbound`.
+
+**Wichtig:** Konkrete Modelle, Specs, Preise und Margen kommen ausschließlich aus
+`data/products.json` — dort ist aktuell nur ein Struktur-Gerüst hinterlegt, das mit
+den echten Produktdaten befüllt werden muss. Der Agent erfindet keine Zahlen.

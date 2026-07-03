@@ -1,0 +1,41 @@
+{
+  "$comment": "Ground-Truth für den Modico Growth Agent. Specs, Modelle, Druckflächen, Preise und Margen werden AUSSCHLIESSLICH hier gepflegt — der Agent erfindet nichts. Felder mit null = noch nicht erfasst. Jede recherchierte Angabe in 'verifiziert' mit Quelle/Datum belegen.",
+  "stand": null,
+  "produkte": [
+    {
+      "id": "BEISPIEL-ENTFERNEN",
+      "kategorie": "uv-flachbettdrucker | uv-runddrucker-360 | lasergravur",
+      "hersteller": "Modico",
+      "modell": null,
+      "specs": {
+        "druckflaeche_mm": null,
+        "max_objekthoehe_mm": null,
+        "aufloesung_dpi": null,
+        "tinten": null,
+        "laser_typ": null,
+        "laser_leistung_w": null,
+        "laser_schutzklasse": null,
+        "rotationseinheit": null
+      },
+      "einkauf": {
+        "quelle": "Restposten/Sonderposten",
+        "ek_preis_eur": null,
+        "zustand": null,
+        "stueckzahl": null
+      },
+      "verkauf": {
+        "vk_preis_eur": null,
+        "neupreis_vergleich_eur": null,
+        "marge_eur": null
+      },
+      "cross_sell": {
+        "rohlinge": [],
+        "verbrauchsmaterial": []
+      },
+      "verifiziert": {
+        "quelle": null,
+        "datum": null
+      }
+    }
+  ]
+}
